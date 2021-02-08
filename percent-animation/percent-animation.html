@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Percent animation</title>
+    <style>
+      .home {
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 100;
+      }
+      .home a {
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="home">
+      <a href="/">Home</a>
+    </div>
+    <section>
+      <div class="container">
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70"></circle>
+              </svg>
+              <div class="number">
+                <h2>90<span>%</span></h2>
+              </div>
+            </div>
+          </div>
+          <div class="text">HTML</div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70"></circle>
+              </svg>
+              <div class="number">
+                <h2>50<span>%</span></h2>
+              </div>
+            </div>
+          </div>
+          <div class="text">CSS</div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70"></circle>
+              </svg>
+              <div class="number">
+                <h2>30<span>%</span></h2>
+              </div>
+            </div>
+          </div>
+          <div class="text">JavaScrit</div>
+        </div>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
