@@ -1,1 +1,3 @@
-# html-css-js-animation
+Just simple animation created with HTML,CSS,JS.
+Each effect located in separate page. 
+Constantly updated ...
