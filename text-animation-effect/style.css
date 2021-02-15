@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #218ae0;
+}
+
+.text {
+  position: relative;
+  font-size: 5em;
+  color: #1bee49;
+  -webkit-box-reflect: below -0.46em linear-gradient(transparent, #0004);
+}
+
+.text span {
+  position: relative;
+  display: inline-block;
+}
