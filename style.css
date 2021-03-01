@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header,
+.footer {
+  padding: 20px 10px;
+  font-size: 2em;
+  color: #fff;
+  background-color: #3678ba;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.links > a {
+  padding: 10px;
+}
